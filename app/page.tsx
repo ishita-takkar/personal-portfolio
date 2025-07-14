@@ -6,7 +6,6 @@ import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
 import { Github, Linkedin, Twitter, MessageSquare, PenTool } from "lucide-react"
 import { Link as ScrollLink } from "react-scroll"
-import CustomCursor from "@/components/custom-cursor"
 import Navbar from "@/components/navbar"
 import SocialIcon from "@/components/social-icon"
 import { Button } from "@/components/ui/button"
@@ -39,7 +38,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white text-gray-900 overflow-hidden">
-      <CustomCursor />
       <Navbar />
       <InteractiveShapes />
 
@@ -141,7 +139,7 @@ export default function Home() {
             </h2>
             <div className="max-w-3xl mx-auto">
               <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
-                <form className="space-y-4" onSubmit={handleSubmit}>
+                <form className="space-y-4" action="https://formspree.io/f/xdoqzqzv" method="POST">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700">
                       Name
@@ -150,6 +148,7 @@ export default function Home() {
                       type="text"
                       id="name"
                       name="name"
+                      required
                       className="mt-1 block w-full rounded-md bg-gray-100 border-gray-300 text-gray-900 px-4 py-3"
                     />
                   </div>
@@ -161,6 +160,7 @@ export default function Home() {
                       type="email"
                       id="email"
                       name="email"
+                      required
                       className="mt-1 block w-full rounded-md bg-gray-100 border-gray-300 text-gray-900 px-4 py-3"
                     />
                   </div>
@@ -172,6 +172,7 @@ export default function Home() {
                       id="message"
                       name="message"
                       rows={4}
+                      required
                       className="mt-1 block w-full rounded-md bg-gray-100 border-gray-300 text-gray-900 px-4 py-3"
                     ></textarea>
                   </div>
@@ -187,9 +188,6 @@ export default function Home() {
                   <div className="flex flex-col items-center gap-2">
                     <a href="mailto:itakkar@ucsd.edu" className="text-purple-600 hover:text-purple-700">
                       itakkar@ucsd.edu
-                    </a>
-                    <a href="tel:201-466-7702" className="text-purple-600 hover:text-purple-700">
-                      201-466-7702
                     </a>
                   </div>
                 </div>
