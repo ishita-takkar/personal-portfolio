@@ -205,7 +205,6 @@ export default function Home() {
           <div className="flex flex-wrap justify-center gap-6 mb-8">
             <SocialIcon icon={<Github />} href="https://github.com/ishita-takkar" label="GitHub" />
             <SocialIcon icon={<Linkedin />} href="https://linkedin.com/in/ishita-takkar" label="LinkedIn" />
-            <SocialIcon icon={<Twitter />} href="https://twitter.com/ishita-takkar" label="Twitter" />
             <SocialIcon icon={<MessageSquare />} href="https://discord.com/users/ishita-takkar" label="Discord" />
             <SocialIcon icon={<PenTool />} href="https://medium.com/@ishita-takkar" label="Medium" />
           </div>
