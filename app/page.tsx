@@ -55,7 +55,7 @@ export default function Home() {
               Hey! I'm Ishita Takkar
             </h1>
             <h2 className="text-xl md:text-2xl mb-8 text-gray-600">
-              📊 Data Science Student | Machine Learning Enthusiast | Research Assistant
+              📊 Data Science | Machine Learning | AI Enthusiast
             </h2>
             <div className="flex flex-wrap justify-center gap-4">
               <ScrollLink to="projects" smooth={true} duration={500}>
