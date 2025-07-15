@@ -16,19 +16,12 @@ import AnimatedBoxes from "@/components/AnimatedBoxes"
 
 export default function Home() {
   const [mounted, setMounted] = useState(false)
-  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     setMounted(true)
-    const timer = setTimeout(() => {
-      setLoading(false)
-    }, 2000) // Show loading for 2 seconds
-
-    return () => clearTimeout(timer)
   }, [])
 
   if (!mounted) return null
-  if (loading) return <Loading />
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()

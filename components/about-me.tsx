@@ -197,20 +197,6 @@ export default function AboutMe() {
               </div>
             </div>
           </div>
-
-          {/* Features Section */}
-          <section className="mt-8">
-            <h2 className="text-2xl font-bold mb-4">Features & Design</h2>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Modern, responsive design with custom animations</li>
-              <li>Interactive 3D and particle backgrounds</li>
-              <li>Custom cursor and animated UI elements</li>
-              <li>Accessible navigation and smooth transitions</li>
-              <li>Contact form with email integration</li>
-              <li>Dark/light theme support</li>
-              <li>Built with Next.js, React, and Tailwind CSS</li>
-            </ul>
-          </section>
         </motion.div>
       </div>
     </section>
