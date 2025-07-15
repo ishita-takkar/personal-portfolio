@@ -139,7 +139,7 @@ export default function Home() {
             </h2>
             <div className="max-w-3xl mx-auto">
               <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
-                <form className="space-y-4" action="https://formspree.io/f/xdoqzqzv" method="POST">
+                <form className="space-y-4" action="https://formspree.io/f/xdkdoejz" method="POST">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700">
                       Name
