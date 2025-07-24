@@ -94,21 +94,33 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <ProjectCard
                 title="Rodent Riddle: Data Visualization Game"
-                description="Built an interactive web app with D3.js to visualize mouse temperature and activity across 20,160 time points. Created a data-driven game to predict mouse type and estrus phase with dynamic visual feedback."
+                description="Developed an interactive web application using D3.js to visualize mouse temperature and activity across 20,160 time points. Designed a data-driven game where users predict mouse type and estrus phase, receiving dynamic visual feedback to enhance engagement and learning."
                 tags={["JavaScript", "D3.js", "HTML/CSS", "Data Storytelling"]}
                 date="May – Jun 2025"
               />
               <ProjectCard
                 title="Recipe Ratings Analysis"
-                description="Analyzed over 200,000 recipes to model rating patterns and ingredient-level impact using Random Forest. Improved R² from -0.34 to 0.007 and reduced RMSE from 4.79 to 4.45."
+                description="Analyzed over 200,000 recipes to model rating patterns and ingredient-level impact using Random Forest. Built interactive visualizations to help users explore how different ingredients affect ratings. Improved R² from -0.34 to 0.007 and reduced RMSE from 4.79 to 4.45, making the results more interpretable for end users."
                 tags={["Python", "Pandas", "Scikit-learn", "Plotly"]}
                 date="Feb – Mar 2025"
               />
               <ProjectCard
                 title="Language Modeling from Project Gutenberg"
-                description="Processed and tokenized over 500,000 words from classic literature using regex. Built Uniform, Unigram, and up to 4-gram language models using conditional probability estimation."
+                description="Processed and tokenized over 500,000 words from classic literature using regex. Built Uniform, Unigram, and up to 4-gram language models with conditional probability estimation, allowing users to generate and analyze text in real time. Enhanced the user experience with clear visualizations and interactive outputs."
                 tags={["Python", "NLP", "Pandas", "Regex"]}
                 date="Feb 2025"
+              />
+              <ProjectCard
+                title="Python Image Processing Toolkit"
+                description="Developed a modular toolkit in Python for image processing, featuring RGB filtering, brightness adjustment, rotation, and grayscale effects. Leveraged object-oriented programming and inheritance to create reusable image and audio classes. Implemented a KNN classifier to distinguish day/night images based on RGB similarity, and handled over 15 transformations efficiently using list comprehensions and custom exceptions."
+                tags={["Python", "NumPy", "Pillow", "OOP", "KNN"]}
+                date="Feb 2024"
+              />
+              <ProjectCard
+                title="Thyroid Cancer Recurrence Prediction"
+                description="Built machine learning models on clinical data from 5,000+ patients to predict thyroid cancer recurrence, achieving an AUC of 0.82 and recall of 74%. Reduced 59 variables to 15 interpretable features, including histology, stage, and treatment history. Used SMOTE for class balancing and XGBoost feature importance to identify key predictors like Medullary histology, radiation, and lymphovascular invasion. Performed EDA to uncover recurrence trends across race, clinical stage, and tumor subtype."
+                tags={["Python", "Scikit-learn", "XGBoost", "SMOTE"]}
+                date="Apr – Jun 2025"
               />
             </div>
           </motion.div>
