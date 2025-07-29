@@ -93,12 +93,6 @@ export default function Home() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <ProjectCard
-                title="Rodent Riddle: Data Visualization Game"
-                description="Developed an interactive web application using D3.js to visualize mouse temperature and activity across 20,160 time points. Designed a data-driven game where users predict mouse type and estrus phase, receiving dynamic visual feedback to enhance engagement and learning."
-                tags={["JavaScript", "D3.js", "HTML/CSS", "Data Storytelling"]}
-                date="May – Jun 2025"
-              />
-              <ProjectCard
                 title="Recipe Ratings Analysis"
                 description="Analyzed over 200,000 recipes to model rating patterns and ingredient-level impact using Random Forest. Built interactive visualizations to help users explore how different ingredients affect ratings. Improved R² from -0.34 to 0.007 and reduced RMSE from 4.79 to 4.45, making the results more interpretable for end users."
                 tags={["Python", "Pandas", "Scikit-learn", "Plotly"]}

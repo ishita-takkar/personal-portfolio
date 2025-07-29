@@ -41,6 +41,18 @@ const timelineData = [
     description:
       "Supported over 300 students in DSC 20 through weekly office hours and exam review sessions. Addressed student questions on Python, debugging, recursion, and object-oriented programming.",
   },
+  {
+    id: 4,
+    company: "Marimo Notebooks, Data Science Student Society – UC San Diego",
+    role: "Consulting Project Manager",
+    period: "Apr 2025 – Jun 2025",
+    location: "La Jolla, CA",
+    type: "Project Management",
+    logo: "/placeholder.svg",
+    skills: ["Plotly", "NumPy", "Matplotlib", "Project Management", "GitHub"],
+    description:
+      "Led a team of 5 students to build 5+ interactive notebooks on Plotly, NumPy, and Matplotlib. Ran weekly syncs with team and Marimo engineers to align goals and track progress. Trained contributors on GitHub (branching, PRs, issues), reducing review time by 40%.",
+  },
 ]
 
 export default function AboutMe() {
